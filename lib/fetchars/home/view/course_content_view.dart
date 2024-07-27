@@ -17,7 +17,8 @@ class HomeView extends StatelessWidget {
       length: 5,
       child: Scaffold(
         appBar: buildAppBar(
-          title: "Dount Delights",
+          title:   
+           "Dount Delights",
           bottom: const CustomTabBarBody(),
         ),
         body: const TabBarView(children: [
